@@ -1,0 +1,108 @@
+  #main{
+    background-image: url("images/flag.jpg");
+    background-repeat: no-repeat;
+    /* Full height */
+    height: 500%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dishbg{
+    background-color: rgb(214, 203, 139) ;
+  }
+  
+  .rbody{
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-color: darkcyan;
+    text-justify: newspaper;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ul{
+    font-size: 25px;
+    text-align: justify;
+    list-style: inside;
+  }
+  
+  .center {
+    border: 20px dashed rgb(32, 112, 112) ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+
+  h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    text-align: center;
+
+  }
+  
+  h2 {
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+                 4px 4px 0px #ee4b2b,
+                 6px 6px 0px #00c2cb,
+                 8px 8px 0px #ff7f50,
+                 10px 10px 0px #553c9a;
+  }
+  
+  h3{
+    font-size: 70px;
+    font-weight: 500;
+    color: #553c9a;
+    border-right: 4px solid #000;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 50px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float:left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear:both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
